@@ -10,14 +10,14 @@ Following the 2012 assignments.
 ## Extra credit:
 ### Easy:
 - [X] Rotate model using 'r' and 'R'
-- [O] Use VBOs or display lists
+- [] Use VBOs or display lists
 - [X] Transition smoothly between colors
 
 ### Medium:
 - [X] Implement mouse based rotation and zooming. Rotation is slow, though.
 
 ### Hard:
-- [O] Implement mesh simplification method
+- [] Implement mesh simplification method
 
 ## Unlisted extras:
 - [X] Cycle between meshes
