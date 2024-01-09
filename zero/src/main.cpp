@@ -7,7 +7,7 @@
 #include <sstream>
 // todo: fix the make file(s)/CMake/build configuration instead of include .cpp files here
 #include "../vecmath/Vector3f.cpp"
-#include "../vecmath/Vector2f.cpp"
+#include "../vecmath/Vector2f.h"
 #include "../vecmath/Vector2f.cpp"
 using namespace std;
 
@@ -514,7 +514,6 @@ void onMouseClick(int button, int state, int x, int y)
     if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
     {
         leftMouseButtonActionPending = 1;
-        // TODO: if LMB held and mouse moved, then update pos of object
         // std::cout << "Left mouse button clicked at - X: " << x << ", Y: " << y << std::endl;
     }
 }
